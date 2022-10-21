@@ -1,0 +1,134 @@
+// iBasicmport  import { print,r,onclick, printout, printin,Cookiekol,routerdom,AlarmSet,RemoveAllPrintstags } from "./src/ACOMpuTWebTecloter.js";
+import {terminal,$,$r,print,printout, printin,AlarmSet,routerdom,addbrtag,onClick,DrawCanvas,Rect,fillStyle,drawline,strokeStyle,TickScound,RemoveAllPrintstags,RemoveAllPrintstagsFixed,RemoveAllPrintstagsFixedAll,RemoveAllPrintstagsFixedAllStrings,ReadElementGET,PutScript,Putlink,GetNotification,DataBase,window,basic} from '../css/html/js/ACOMpuTWebTecloter.js'
+function GetThree() {
+    var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight, 0.1, 1000);
+        var renderer = new THREE.WebGLRenderer({antialias: true});
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+  
+        var geometry = new THREE.BoxGeometry( 1, 1, 1);
+        var material = new THREE.MeshBasicMaterial( { color: 0x0000ff } );
+        var cube = new THREE.Mesh( geometry, material );
+        scene.add( cube );
+  
+        camera.position.z = 5;
+  
+        function animate() {
+          requestAnimationFrame( animate );
+          cube.rotation.x += 0.01;
+          cube.rotation.y += 0.01;
+          renderer.render( scene, camera );
+        }
+        animate();
+  
+  /*      var geometry = new THREE.BufferGeometry();
+        var vertices = new Float32Array( [
+        -1.0, -1.0,  1.0,
+        1.0, -1.0,  1.0,
+        1.0,  1.0,  1.0,
+  
+        1.0,  1.0,  1.0,
+        -1.0,  1.0,  1.0,
+        -1.0, -1.0,  1.0
+        ]);
+  
+        geometry.setAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
+        var material = new THREE.MeshBasicMaterial( {color: 0xff0000 } );
+        var mesh = new THREE.Mesh( geometry, material );*/
+}
+var threes = GetThree()
+function start() {
+    console.log(threes)
+    print(`${threes}`,"df","df",'script',"ACOMpuTWebTecloter")
+    var get = ["hello","dd"]
+    DataBase(get)
+    console.log(get[0] + " " + get[1])
+    print("NameWifi: WE_EA84E2","idused","classused","h3","ACOMpuTWebTecloter")
+    print("WifiUsed: 30GBUsed","idused","classused","h2","ACOMpuTWebTecloter")
+    var ok = 0
+    var reapea = 0
+    ok++
+    var ok2 = 0;
+    TickScound(function () {
+        ok2++
+    },0.01)
+    var ok3 = 0;
+    TickScound(function () {
+        ok3++
+    },2)
+    var ok4 = 0;
+    TickScound(function () {
+        ok4++
+    },40)
+    TickScound(function () {
+        ok++
+        
+        var get = [$r.getElementById("idused2").innerHTML = `Port: ${ok + "."  + ok2 + "." + ok3 +"."+ ok4}`]
+        DataBase(get)
+    $r.getElementById("idused2").innerHTML = localStorage.getItem("Data1")
+        $r.getElementById("idused3").innerHTML = `PortRe: ${reapea}`
+        if (ok === 9) {
+            ok = 0.5 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok - 0.5 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok / ok
+            console.log("hellokkk")
+            reapea++
+            $r.getElementById("idused3").innerHTML = `PortRe: ${reapea}`
+        }
+        if (ok2 === 9) {
+            ok2 = - 0 - 0 - 9 +  0.4 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok - 0.5 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok / ok
+            console.log("hellokkk")
+            reapea++
+            $r.getElementById("idused3").innerHTML = `PortRe: ${reapea}`
+        }
+        if (ok3 === 9) {
+            ok3 = 0.3 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok - 0.5 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok / ok
+            console.log("hellokkk")
+            reapea++
+            $r.getElementById("idused3").innerHTML = `PortRe: ${reapea}`
+        }
+        if (ok4 === 9) {
+            ok4 = 0.2 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok - 0.5 * 1000 / 400 + 20 /10000 + ok * 9000 + 0 / ok / ok
+           
+        }
+    },0.1)
+    print(`Port: ${ok}`,"idused2","classused","h2","ACOMpuTWebTecloter")
+    print(`Port: ${ok}`,"idused3","classused","h2","ACOMpuTWebTecloter")
+    print(`WE_EA84E2: From 100Gb`,"idused2","classused","h2","ACOMpuTWebTecloter")
+    var cout = 0
+    cout++
+    print(" ","dd","dd2","div","ACOMpuTWebTecloter")
+    window("Home","Homewindowid","HomeWindowClass","dd")
+    print("+","hello","lo","p","dd")
+    $r.getElementById(`hello`).onclick = function () {
+        window("Home","Homewindowid","HomeWindowClass","Homewindowid")
+    }
+    print(`Sunt sunt aliqua magna dolor dolor consequat irure enim esse. Aliqua reprehenderit magna est laboris aliqua incididunt excepteur ad consectetur. Velit commodo occaecat ex amet. Enim amet quis est irure elit magna sunt qui eiusmod id ipsum. Cillum ut excepteur ea laboris voluptate excepteur est occaecat irure esse nulla culpa ea tempor. Qui sit deserunt cillum consequat enim esse ut consectetur velit ut ipsum est reprehenderit. Magna eu incididunt elit nostrud veniam ea nulla ut ad in elit.
+
+Exercitation excepteur officia fugiat dolore ut. Minim esse ea commodo pariatur. Nulla nulla aute eiusmod laborum sint sunt ex tempor deserunt officia amet. Culpa velit culpa irure quis exercitation velit. Nulla irure cillum nisi dolor in enim exercitation duis ipsum consectetur cupidatat esse et. Aute eiusmod sunt laboris ad nulla fugiat et elit.
+
+Pariatur duis id velit proident proident ipsum commodo ea. Nostrud adipisicing dolor consequat sunt consequat culpa veniam ex in. Id eiusmod enim duis sint id aliquip consequat eiusmod aliquip ut mollit veniam esse amet. Aute culpa occaecat et laboris deserunt eiusmod minim irure id ut Lorem excepteur Lorem. Exercitation velit nisi veniam quis laboris cupidatat eu nisi fugiat sit. Lorem irure nisi et est commodo excepteur. Aliquip commodo anim ut pariatur.
+
+Lorem deserunt labore voluptate tempor enim dolor. Incididunt ullamco id veniam excepteur aliqua aliqua incididunt anim. Proident laborum ad enim excepteur in sit labore excepteur velit proident excepteur officia. Dolor ad magna cillum laboris aliqua eu proident eiusmod. Laboris Lorem irure laborum ea reprehenderit irure esse eu. Sunt et elit dolor irure amet anim aliquip dolore magna. Ut ad in deserunt ea laborum minim amet.
+
+Dolore nulla qui fugiat ea duis magna adipisicing. Duis do id ea proident in commodo in id sit eiusmod amet. Veniam amet aliquip minim occaecat laboris reprehenderit irure Lorem laborum non nisi exercitation. Magna ea ipsum occaecat sint tempor magna exercitation enim. Enim labore incididunt fugiat veniam ullamco cillum cupidatat sint in id mollit consectetur nisi.
+
+Incididunt dolor quis eiusmod elit. In laboris exercitation minim laboris tempor nisi aute reprehenderit. Dolore occaecat fugiat aliquip non ullamco culpa nisi velit proident irure mollit nulla veniam. Labore nostrud id officia nostrud ut cillum id laborum proident. Aute deserunt Lorem ut dolore nostrud reprehenderit duis ut sint. Fugiat nostrud mollit adipisicing irure aliquip est in nulla incididunt eu est ex laboris non. Quis magna pariatur adipisicing et id labore.
+
+Non magna culpa labore amet ullamco Lorem ad amet deserunt ad. Magna voluptate aute laborum veniam labore. Laborum aliquip nisi eiusmod ullamco nisi cillum consequat anim velit non. Excepteur Lorem duis nulla aute nostrud excepteur excepteur id nisi enim ut qui. Pariatur quis cupidatat velit reprehenderit veniam deserunt nulla occaecat in duis. Irure esse pariatur qui non culpa nisi et et. Eu consectetur consectetur amet cillum minim.
+
+Cupidatat non pariatur cupidatat consequat ad ipsum. Nisi magna culpa laboris do Lorem deserunt sint. Ullamco est dolore sunt mollit. Occaecat sunt nisi dolore fugiat irure. Ea culpa nostrud quis excepteur est. Eu cillum ipsum adipisicing incididunt non exercitation deserunt sit occaecat.
+
+Sunt tempor elit amet ad excepteur reprehenderit ut. Enim do ea excepteur culpa cillum anim culpa officia. Quis veniam laboris deserunt irure. Nulla et ea proident cupidatat veniam exercitation ad aliquip consequat amet officia. Laborum enim sint ullamco sunt cillum et excepteur est et officia aliqua.
+
+Non irure enim aute sunt irure deserunt ullamco tempor commodo dolore pariatur fugiat. Culpa deserunt et incididunt duis ut exercitation ea consectetur reprehenderit. Id ex est amet incididunt aute veniam velit.`,"idused","classused","p","ACOMpuTWebTecloter")
+   
+}
+
+
+function Scound() {   
+    
+
+}
+start();
+Scound();
+
